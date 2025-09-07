@@ -20,15 +20,18 @@ A AWS é a infraestrutura mais segura, abrangente e confiavel plataforma de nuve
 - Availability zones: são datas centers independentes mas conectados logicamente, para garantir alta disponibilidade.
 
 ## Arquitetura em nuvem utilizando os principais serviços da AWS:
+
 - Amazon EC2 → Computação em nuvem
 - Amazon EBS → Armazenamento em blocos anexado ao EC2
 - Amazon RDS → Banco de dados relacional gerenciado
 - Amazon S3 → Armazenamento de objetos na nuvem
 
 ## Criação e uso de imagem AMI
+
 AMI é uma imagem de maquina virtual pré configurada,que inclui informações de maquina virtual para iniciar uma instancia, como o sistema oeprativo.
 
 ## EBS
+
 Sua função é fornecer armazenamento em bloco fiável(também conhecido como volumes ou discos rígidos).
 
 Ele é um IAAS.
@@ -36,7 +39,9 @@ Ele é um IAAS.
 ## Snapshots EBS
 
 É um serviço de backup nativo do AWS que faz backup dos volumes do EBS em um determinado momento.
-- Diferenças entre AMI e EBS :
+
+### Diferenças entre AMI e EBS
+
 | AMI | EBS|
 | --- | ------------- |
 | faz cópia do servidor inteiro,incluindo todos os volumes EBS anexados.| é uma cópia pontual de um determinado volume. |
@@ -44,6 +49,8 @@ Ele é um IAAS.
 ## Desafio 
 
 - Desafio instâncias EC2.drawio → Diagrama exportado em formato de imagem
+
+![Diagrama AWS](Diagramadesafio.drawio.png)
 
 
 ## Conclusão
